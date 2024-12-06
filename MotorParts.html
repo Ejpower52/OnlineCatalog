@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motor Part's Of Harold</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 20px 0;
+            font-size: 2em;
+            border-bottom: 1px dotted #000;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .motorparts-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 10px;
+            padding: 10px;
+            width: 200px;
+            text-align: center;
+        }
+        .motorparts-card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .motorparts-card h3 {
+            margin: 10px 0;
+        }
+        .motorparts-card p {
+            color: #555;
+        }
+        .price {
+            font-weight: bold;
+            color: #e74c3c;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f1f1f1;
+            border-top: 1px solid #ddd;
+        }
+        footer p {
+            margin: 5px 0;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Motor Part's Of Harold</h1>
+    <div class="container" id="motorparts-container"></div>
+
+    <script>
+        // Fetch data from the JSON file
+        fetch('Mp.json')
+            .then(response => response.json()) // Ensure to return the parsed JSON
+            .then(data => {
+                const container = document.getElementById('motorparts-container');
+                
+                // Render each fruit card
+                data.Motorparts.forEach(motorparts => { // Access 'ulam' array from data
+                    const card = document.createElement('div');
+                    card.className = 'motorparts-card';
+                    card.innerHTML = `
+                        <img src="${motorparts.image}" alt="${motorparts.name}">
+                        <h3>${motorparts.name}</h3>
+                        <p>${motorparts.description}</p>
+                        <p class="price">${motorparts.price}</p>
+                    `;
+                    container.appendChild(card);
+                });
+            })
+            .catch(error => {
+                console.error('Error fetching the data:', error);
+            });
+    </script>
+    <footer>
+      <p>Designed by:Prince Harold Pakingan</p>
+      <p>12-Cooper</p>
+    </footer>
+</body>
+</html>

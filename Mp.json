@@ -1,0 +1,65 @@
+{
+"Motorparts":[
+    {
+        "name": "Engine",
+        "description": "The different parts that make up your car's engine consist of: the engine block (cylinder block), combustion chamber, cylinder head, pistons, crankshaft, camshaft, timing chain, valve train, valves, rocker's arms, pushrods/lifters, fuel injectors, and spark plugs.",
+        "price": "₱130000",
+        "image": "Engine.jpg"
+    },
+    {
+        "name": "Clutch lever",
+        "description": "connects the shafts so they can be engaged (spin at the same speed), slipping (spinning at different speeds), or disengaged (spinning at different speeds).",
+        "price": "₱399",
+        "image": "Clutchlever.jpg"
+    },
+    {
+        "name": "Dashboard",
+        "description": "Most road motorcycles have an instrument panel, usually consisting of speedometer, odometer and tachometer.",
+        "price": "₱251",
+        "image": "Dashboard.jpg"
+    },
+    {
+        "name": "Gear Shifter",
+        "description": "The gear shift is a bar located in front of the left foot pedal. It is responsible for switching between gears. Practice the following: Squeeze the clutch lever in, then slowly ease it out. Roll the throttle towards the back of the motorcycle (roll on) to go faster.",
+        "price": "₱174",
+        "image": "Gearshifter.jpg"
+    },
+    {
+        "name": "Headlights",
+        "description": "Widely used in motorcycles, halogen headlights provide a good balance of cost, brightness, and longevity. They offer a warm, white light and are relatively easy to replace.",
+        "price": "₱1250",
+        "image": "Headlight.jpg"
+    },
+    {
+        "name": "Brake",
+        "description": "Motorcycles typically have two separate brakes, one for the front wheel and one for the rear wheel, to give the rider more control. The most common type of motorcycle brakes are disc brakes, which are similar to those found on cars.",
+        "price": "₱160",
+        "image": "Brake.jpg"
+    },
+    {
+        "name": "Tires",
+        "description": "A motorcycle tyre (spelt tire in American English) is the outer part of motorcycle wheel, attached to the rim, providing traction, resisting wear, absorbing surface irregularities, and allowing the motorcycle to turn via countersteering. The two tyres' contact patches are the motorcycle's connection to the ground, and so are fundamental to the motorcycle's suspension behaviour, and critically affect safety, braking, fuel economy, noise, and rider comfort.",
+        "price":"₱1615",
+        "image": "Tires.jpg"
+    },
+    {
+        "name": "Side Mirror",
+        "description": "The side mirror is an important device for observing objects both from sides and behind. ",
+        "price": "₱135",
+        "image": "Mirror.jpg"
+    },
+        {
+        "name": "Fuel Tank",
+        "description": "A motorcycle fuel tank is a container that stores and supplies gasoline to a motorcycle's engine.",
+        "price": "₱1250",
+        "image": "Fueltank.jpg"
+    },
+        {
+        "name": "Wheel Rim",
+        "description": "Motorcycle wheels come in two different types of rims: solid wheels or spoke wheels. The rim and spokes are cast as a single unit in the former case, whereas the rims are laced with spokes in the latter case.",
+        "price": "₱1300",
+        "image": "Rim.jpg"
+    }
+]
+}
+
